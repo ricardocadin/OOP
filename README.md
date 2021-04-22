@@ -1,10 +1,10 @@
 # Já ouviu falar de Programação Orientação a Objetos?
 
-Apesar de ser um conceito inicial e sempre nos deparamos com ele na universidade ou em cursos básicos de programação, a orientada a objetos permear diversos tópicos e padrões mais avançados voltados para desenvolvimento/arquitetura de software. 
+Apesar de ser um conceito inicial e sempre nos deparamos com ele na universidade ou em cursos básicos de programação, a orientação a objetos permear diversos tópicos e padrões mais avançados voltados para desenvolvimento/arquitetura de software. 
 
 Quando falamos de OOP (Programação Orientada a Objetos) é extremamente comum se ouvir as exigências de baixo acoplamento e alta coesão, não é mesmo? Mas o que isso significa?  Quando dizemos que deve ter um baixo acoplamento, estamos nos referindo diretamente a dependência de um objeto por outro, ou seja, quando um deles muda o outro muda por consequência. No caso da coesão é o contrário, temos objetos com uma única responsabilidade e livres de qualquer dependência direta com outro objeto, ou seja, temos uma maior flexibilidade para mudanças.
 
-Sem falar que esse tema é amplamente abordado no mercado de trabalho e em provas técnicas, posso te garantir que quando for se aplicar para uma vaga de desenvolvimento esses conceitos estarão lá para validar seu conhecimento. Por isso, é extremamente importante dominar os pilares fundamentais e também saber como aplicá-los para alcançar as melhores práticas com design de código, padrões e abordagens arquiteturais.
+Sem falar que esse tema é amplamente abordado no mercado de trabalho e em provas técnicas, posso te garantir que quando você for se aplicar para uma vaga de desenvolvimento esses conceitos estarão lá para validar seu conhecimento. Por isso, é extremamente importante dominar os pilares fundamentais e também saber como aplicá-los para alcançar as melhores práticas com design de código, padrões e abordagens arquiteturais.
 
 E quais são esses pilares?
 
@@ -41,7 +41,7 @@ A e não vamos esquecer que ao herdar as estruturas de uma classe mãe, estamos 
 
 E se eu te dissesse que a abstração é uma forma de criar um conceito genérico, ou seja, uma superclasse para apoiar a herança de forma que ela seja sempre herdada por suas classes filhas para especializar o seu comportamento. Mas qual a diferença para uma herança simples? Uma classe que é abstrata ela não pode ser instanciada para ser utilizada diretamente, pelo contrário, ela oferece comportamentos e informações básicas que todas as suas especializações (filhas) terão e poderão ter a escolha de implementar.
 
-Mas como é isso, digamos que temos uma superclasse abstrata de eletrodomésticos com as informações de nome e sua voltagem. Além disso, temos o comportamento abstrato de ligar e desligar o que naturalmente todo eletrodoméstico faz. Porém, não ensinamos o eletrodoméstico a ligar ou desligar, simplesmente dizemos que ele possui esses comportamentos e que a classe filha que o herdar é obrigada a codificar tal forma de realizar essas ações.
+Mas como é isso? Digamos que temos uma superclasse abstrata de eletrodomésticos com as informações de nome e sua voltagem. Além disso, temos o comportamento abstrato de ligar e desligar o que naturalmente todo eletrodoméstico faz. Porém, não ensinamos o eletrodoméstico a ligar ou desligar, simplesmente dizemos que ele possui esses comportamentos e que a classe filha que o herdar é obrigada a codificar tal forma de realizar essas ações.
 
 Digamos que temos as classes filhas micro-ondas e liquidificador, ambas terão informações a respeito de nome e voltagem da classe abstrata pai e também terão formas diferente de ligar e desligar. Além disso, cada uma pode especializar demais comportamentos ou informações, como por exemplo um liquidificador que liquidifica alimentos o que um micro-ondas não faz.
 
